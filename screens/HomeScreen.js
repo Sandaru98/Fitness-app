@@ -22,11 +22,11 @@ const HomeScreen = () => {
     <>
       <ScrollView
         showsVerticalScrollIndicator={false}
-        style={{ backgroundColor: "white", marginTop: 50 }}
+        style={{ backgroundColor: "white" }}
       >
         <View
           style={{
-            backgroundColor: "#1E2B3C", //#170809 #411719 #472B31 #3D1106 #1E2B3C #3A2627
+            backgroundColor: "#472B31", // #472B31  #3F373F
             padding: 10,
             width: "100%",
           }}
@@ -37,6 +37,7 @@ const HomeScreen = () => {
               fontWeight: "bold",
               fontSize: 18,
               paddingLeft: 10,
+              textAlign: "center",
             }}
           >
             HOME WORKOUT
@@ -103,10 +104,10 @@ const HomeScreen = () => {
           <View style={{ justifyContent: "center", alignItems: "center" }}>
             <Image
               style={{
-                width: "90%",
+                width: "93%",
                 height: 140,
                 marginTop: 20,
-                borderRadius: 7,
+                borderRadius: 10,
               }}
               source={require("../images/homescreen4.jpg")}
             />

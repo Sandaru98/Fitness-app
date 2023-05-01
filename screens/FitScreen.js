@@ -12,12 +12,10 @@ import { FitnessItems } from "../Context";
 
 const FitScreen = () => {
   const route = useRoute();
-  // console.log(route.params);
   const navigation = useNavigation();
   const [index, setIndex] = useState(0);
   const excersise = route.params.excersises;
   const current = excersise[index];
-  // console.log(current, "first excersise");
 
   const {
     completed,

@@ -8,18 +8,36 @@ import FitScreen from "./screens/FitScreen";
 import RestScreen from "./screens/RestScreen";
 
 const StackNavigator = () => {
-  const Stack = createNativeStackNavigator();
+    const Stack = createNativeStackNavigator();
 
-  return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} options={{headerShown:false}}/>
-        <Stack.Screen name="Workout" component={WorkoutScreen} options={{headerShown:false}}/>
-        <Stack.Screen name="Fit" component={FitScreen} options={{headerShown:false}}/>
-        <Stack.Screen name="Rest" component={RestScreen} options={{headerShown:false}}/>
-      </Stack.Navigator>
-    </NavigationContainer>
-  );
+    return ( <
+        NavigationContainer >
+        <
+        Stack.Navigator >
+        <
+        Stack.Screen name = "Home"
+        component = { HomeScreen }
+        options = {
+            { headerShown: false } }
+        /> <
+        Stack.Screen name = "Workout"
+        component = { WorkoutScreen }
+        options = {
+            { headerShown: false } }
+        /> <
+        Stack.Screen name = "Fit"
+        component = { FitScreen }
+        options = {
+            { headerShown: false } }
+        /> <
+        Stack.Screen name = "Rest"
+        component = { RestScreen }
+        options = {
+            { headerShown: false } }
+        /> <
+        /Stack.Navigator> <
+        /NavigationContainer>
+    );
 };
 
 export default StackNavigator;

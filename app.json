@@ -1,38 +1,37 @@
 {
-  "expo": {
-    "name": "Home Workout App",
-    "slug": "homeWorkoutApp",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/appicon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash5.jpg",
-      "resizeMode": "center",
-      "backgroundColor": "#FFFFFF"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "c5aba5e0-c857-4c04-862b-ad70dc7c45d3"
-      }
+    "expo": {
+        "name": "Home Workout App",
+        "slug": "homeWorkoutApp",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splashworkout.png",
+            "resizeMode": "center",
+            "backgroundColor": "#FFFFFF"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/icon.png",
+                "backgroundColor": "#FFFFFF"
+            },
+            "package": "com.sandaru.homeWorkoutApp"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "c5aba5e0-c857-4c04-862b-ad70dc7c45d3"
+            }
+        }
     }
-  }
 }

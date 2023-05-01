@@ -20,10 +20,10 @@ const WorkOutScreen = () => {
     <>
       <ScrollView
         showsVerticalScrollIndicator={false}
-        style={{ backgroundColor: "white", marginTop: 50 }}
+        style={{ backgroundColor: "white" }}
       >
         <Image
-          style={{ width: "100%", height: 170 }}
+          style={{ width: "100%", height: 200 }}
           source={{ uri: route.params.image }}
         />
 
